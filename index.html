@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Fromulario</title>
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <h1>Formulario de Contacto</h1>
+            <img src="img/logo-maser-group-grande.png" alt="logoMASER">
+        </header>
+        <main class="contenido">
+            <form id="formulario" action="procesar.php" method="">
+                <div class="form-control">
+                    <label for="usuario">Nombre de usuario</label>
+                    <input id="usuario" type="text">
+                    <p></p>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email">
+                    <p></p>
+                </div>
+
+                <div class="form-control">
+                    <label for="pass">Password</label>
+                    <input id="pass" type="password">
+                    <p></p>
+                </div>
+
+                <div class="form-control">
+                    <label for="passConfirma">Confirmar Password</label>
+                    <input id="passConfirma" type="password">
+                    <p></p>
+                </div>
+
+                <div class="formulario__grupo" id="grupo__terminos">
+                    <label class="formulario__label">
+                        <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                        Acepto los Terminos y Condiciones
+                    </label>
+                </div>
+                <br>
+                <button>Enviar</button>
+            </form>
+
+        </main>
+        <aside class="sidebar" style="background-image: url('img/aside.png')">
+
+            <div class="textos">
+                <h3>¡Contacta con nosotros! Queremos ayudarte.</h3>
+            </div>
+        </aside>
+
+        <footer class="footer">
+            Tu privacidad es importante para nosotros y por eso queremos que conozcas información esencial sobre el
+            tratamiento de datos.
+        </footer>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
